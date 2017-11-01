@@ -7,7 +7,7 @@ def display_board
   board = "#{cell}#{wall}#{cell}#{wall}#{cell}\n
            #{cell}#{wall}#{cell}#{wall}#{cell}\n
            #{cell}#{wall}#{cell}#{wall}#{cell}\n"
-           
+
 puts(board)
 
 end
