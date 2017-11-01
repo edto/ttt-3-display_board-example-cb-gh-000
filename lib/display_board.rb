@@ -4,7 +4,7 @@ def display_board
   wall = "|"
   row = "-----------"
 
-  board = "#{cell}#{wall}#{cell}#{wall}#{cell}\n#{row}\n#{cell}#{wall}#{cell}#{wall}#{cell}\n#{row}\n#{cell}#{wall}#{cell}#{wall}#{cell}"
+  board = "#{cell}#{wall}#{cell}#{wall}#{cell}\n#{row}\n#{cell}#{wall}#{cell}#{wall}#{cell}\n#{row}\n#{cell}#{wall}#{cell}#{wall}#{cell}\n"
   board = "   |   |   \n-----------\n   |   |   \n-----------\n   |   |   \n"
 print(board)
 end
