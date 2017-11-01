@@ -4,8 +4,8 @@ def display_board
   wall = "|"
   row = "-----------"
 
-  board = "#{cell}#{wall}#{cell}#{wall}#{cell}\n
-           #{cell}#{wall}#{cell}#{wall}#{cell}\n
+  board = "#{cell}#{wall}#{cell}#{wall}#{cell}\n#{row}
+           #{cell}#{wall}#{cell}#{wall}#{cell}\n#{row}
            #{cell}#{wall}#{cell}#{wall}#{cell}\n"
 
 puts(board)
